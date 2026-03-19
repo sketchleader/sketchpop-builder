@@ -1,48 +1,67 @@
-# 🚀 SketchPop: Quick App & Promo Builder
+=== SketchPop: Quick App & Promo Builder ===
+Contributors: sketchleader
+Donate link: https://sketchleader.com/donate
+Tags: popup, app install, banner, promotion, modal
+Requires at least: 5.0
+Tested up to: 7.0
+Stable tag: 5.1.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/sketchpop-builder.svg)](https://wordpress.org/plugins/sketchpop-builder/)
-[![PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-blue.svg)](https://php.net)
-[![License](https://img.shields.io/badge/license-GPLv2-green.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
+A distinctive, lightweight popup builder for App installs and Image banners. Optimized for speed, security, and high conversions.
+
+== Description ==
 
 **SketchPop** is a professional-grade popup and modal builder designed for developers and site owners who want a clean, "App-style" interface for their promotions. 
 
-> **Official WordPress Page:** [wordpress.org/plugins/sketchpop-builder](https://wordpress.org/plugins/sketchpop-builder/)
+Unlike bulky builders, SketchPop focuses on a single, high-conversion design that works perfectly for mobile app downloads, special announcements, or simple image banners. 
 
----
+Version 5.1.1 is fully optimized for PHP 8.1+ and follows the latest WordPress.org security guidelines, ensuring your website remains fast and secure.
 
-## ✨ Features
-* **Media Library Integration:** Upload banners directly through the native WordPress uploader.
-* **High-Conversion Promo Mode:** Drive traffic to the App Store, Play Store, or custom URLs.
-* **Glassmorphism UI:** Features a premium blur backdrop and a spring-bounce entrance animation.
-* **White Label Ready:** Option to hide the "By Sketchleader" credit link.
-* **Focus Mode:** Ability to hide the close (X) button for critical announcements.
-* **Lightweight:** Pure PHP, CSS, and minimal jQuery. No heavy libraries!
+### 🚀 Key Features:
+* **Media Library Integration:** Upload your own promotional banners directly through the WordPress admin using the native media uploader.
+* **High-Conversion Promo Mode:** Dedicated fields for titles, descriptions, and CTA buttons to drive traffic to the App Store, Play Store, or custom URLs.
+* **Modern Glassmorphism UI:** Features a premium blur backdrop and a spring-bounce entrance animation for a modern, high-end feel.
+* **Full Branding Control:** Option to hide the "By Sketchleader" credit link for a 100% white-label experience.
+* **Focus Mode:** Ability to hide the close (X) button to ensure users see your most important offers before navigating away.
+* **PHP 8.1+ Ready:** Fully compatible with modern server environments using null-safe fallbacks.
+* **Lightweight Performance:** No heavy external libraries; just pure PHP, CSS, and minimal jQuery.
 
-## 📸 Screenshots
-| Admin Dashboard | Mobile App Popup | Banner Mode |
-| :--- | :--- | :--- |
-| ![Admin](assets/screenshot-1.png) | ![Mobile](assets/screenshot-1.png) | ![Banner](assets/screenshot-1.png) |
-*(Note: Replace these with your actual screenshot URLs after uploading to the assets folder)*
+== Installation ==
 
-## 🛠️ Installation
-1. Download the [Latest Release](https://github.com/sanjitchaurasiya/sketchpop-builder/releases).
-2. Upload the `sketchpop-builder` folder to `/wp-content/plugins/`.
-3. Activate via the **Plugins** menu in WordPress.
-4. Configure your settings in the **SketchPop** admin sidebar.
+1. Upload the `sketchpop-builder` folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to the **SketchPop** menu in your admin sidebar.
+4. Fill in your details and click **Update SketchPop Settings**.
 
-## 📝 Changelog
-### v5.1.1
-* **FIXED:** Resolved PHP 8.1+ Deprecated warnings.
-* **FIXED:** Updated Contributors list.
-* **ENHANCEMENT:** Added null-safe fallbacks for admin settings.
+== Frequently Asked Questions ==
 
----
+= Does it work on mobile? =
+Yes, SketchPop is fully responsive and optimized for mobile-first browsing.
 
-## 👨‍💻 Developed By
-**Sanjit Chaurasiya (Sketchleader)**
-* **Website:** [sketchleader.com](https://sketchleader.com)
-* **Telegram:** [@SketchLeader](https://t.me/SketchLeader)
-* **Donate:** [Support my work](https://sketchleader.com/donate)
+= Can I use it for App Store links? =
+Yes, simply paste your Store URL into the "Button URL" field in the settings.
 
----
-*If you find this plugin useful, please give it a ⭐ on GitHub and a 5-star review on WordPress.org!*
+= Is it fast? =
+Yes, SketchPop uses no external libraries and minimal code to keep your page speed high.
+
+== Screenshots ==
+
+1. The modern and secure SketchPop Admin Dashboard.
+2. A high-conversion App Install popup on a mobile device.
+3. Clean image-banner mode for sales promotions.
+
+== Changelog ==
+
+= 5.1.1 =
+* FIXED: Resolved PHP 8.1+ Deprecated warning for null parameters.
+* FIXED: Updated Contributors list to match official WordPress.org username.
+* ENHANCEMENT: Added null-safe fallbacks for all admin settings.
+
+= 5.1.0 =
+* FIXED: Proper asset enqueuing and unique prefixing (skpop_).
+
+== Upgrade Notice ==
+
+= 5.1.1 =
+Essential update for PHP 8.1+ compatibility and official repository synchronization.
